@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio da Programadora/Kauane Santos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Kauane Santos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="portfolio-container">
+        <div class="intro">
+            <br>
+            <h1>Bem-vindo ao Meu Portfólio</h1>
+        </div>
+
+        <div class="Sobre mim">
+            <h2>Sobre Mim</h2>
+            <p>Olá, meu nome é Kauane Santos, sou uma programadora iniciante e sou apaixonada por tecnologia. Estou sempre em busca de aprender novas tecnologias e aprimorar minhas habilidades.</p>
+            <p>Atualmente, estou estudando programação e desenvolvendo projetos para aplicar o que aprendo. Meu objetivo é me tornar uma desenvolvedora full-stack e contribuir para projetos inovadores.</p>
+            <p>Estou animada para compartilhar meu portfólio com você e mostrar o que tenho aprendido até agora. Sinta-se à vontade para explorar meus projetos e entrar em contato se tiver alguma dúvida ou quiser colaborar!</p>
+            <p>Você pode me encontrar nas redes sociais:</p>
+        </div>
+        <section id="projetos">
+            <h2>🚀 Meus Projetos</h2>
+        
+            <div class="projeto">
+                <h3>Restaurante Ripe Origins Briefing</h3>
+                <p>Essa foi uma atividade a qual tivemos que fazer em duplas, a qual tinhamos que criar um kanban, um wireframe e um site para um restaurante mexicano contendo todas as informações necessárias</p>
+                <a href="https://anna-jumacedo.github.io/Ripe-Origins-Briefing/Ripe%20Origins.html" target="_blank">Ver projeto</a>
+            </div>
+
+            <div class="projeto">
+                <h3>Better empresa de tecnologia</h3>
+                <p>Projeto feito para uma empresa ficticia a qual queria um site que fosse feito para facilitar a comunicação com o cliente.</p>
+                <a href="https://kauane1706.github.io/Better/" target="_blank">Ver projeto</a>
+            </div>
+        
+            <div class="projeto">
+                <h3>Projeto Integrador</h3>
+                <p>Um dos últimos trabalhos foi nosso Projeto Integrador o qual criamos um controle de estoque para uma fábrica, o qual seu objetivo é facilitar a contagem de produtos no etoque/almoxerifado.</p>
+                <a href="https://github.com/Kauane1706/Pi-Software" target="_blank">Ver projeto</a>
+            </div>
+        </section>
+
+                
+                <p>Esses são alguns dos projetos que desenvolvi durante meu curso de programação no Senac, onde tive a oportunidade de aplicar meus conhecimentos em HTML, CSS, JavaScript e PHP.</p>
+                <p>O Ripe Origins e o Better foram criados para matérias ficticias, exceto o Projeto Integrador o qual foi feito para uma empresa verdadeira, além de fato termos ido até o local conversar com pessoas de dentro para fazer e aplicar o projeto.</p>
+                <p>Para mais informações sobre os projetos e os demais basta acesar o link do GitHub localizado ao final da página</p>
+                <p>Att. Kauane Santos</p>
+
+                <section id="skills">
+                    <h2 class="section-title">Habilidades Técnicas</h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Frontend</h3>
+                            <div class="skill-list">
+                                <span class="skill-item">HTML</span>
+                                <span class="skill-item">CSS</span>
+                                <span class="skill-item">Bootstrap</span>
+                                <span class="skill-item">Tailwind CSS</span>
+                                <span class="skill-item">Flowbite</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3>Backend</h3>
+                            <div class="skill-list">
+                                <span class="skill-item">Python</span>
+                                <span class="skill-item">JavaScript</span>
+                                <span class="skill-item">PHP</span>
+                                <span class="skill-item">C#</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3>Database & DevOps</h3>
+                            <div class="skill-list">
+                                <span class="skill-item">MySQL</span>
+                                <span class="skill-item">Git</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3>Mobile & Design</h3>
+                            <div class="skill-list">
+                                <span class="skill-item">Figma</span>
+                                <span class="skill-item">Photoshop</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    </main>
+    <footer>
+        <div class="Informações para contato">
+            <h2>Informações para Contato</h2>
+            <ul>
+                <li><a href="https://github.com/Kauane1706" target="_blank">GitHub</a></li>
+                <li><a href="https://www.instagram.com/_kahsants?hl=pt-br" target="_blank">Instagram</a></li>
+                <a href="mailto:kauanekakadossantos854@gmail.com">Me envie um e-mail</a>
+                <a href="https://w.app/kasantos" target="_blank">Tire dúvidas ou faça seu orçamento</a>
+
+            </ul>
+            @Kauane Santos - 2025-Todos os direitos reservados.
+        </div>
+    </footer>
+    <script>
+        const toggleButton = document.getElementById('toggle-dark-mode');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('light-mode');
+            if (document.body.classList.contains('light-mode')) {
+                toggleButton.textContent = '🌑 Alternar Tema';
+            } else {
+                toggleButton.textContent = '🌙 Alternar Tema';
+            }
+        });
+    </script>
+    <button id="toggle-dark-mode" class="toggle-button">🌙 Alternar Tema</button>    
+</body>
+</html>
