@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Kauane Santos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class ="curriculo-container">
+        <div class="intro">
+            <h1>Currículo de Kauane Santos</h1>
+        </div>
+
+        <section class="Informações Pessoais">
+            <h2>Informações Pessoais</h2>
+            <p>Kauane Santos da Cunha</p>
+            <p>Brasileira, Solteira, NC: 17/02/2006</p>
+            <P>Cel: (12) 99191-8313</P>
+        </section>
+
+        <section class="objetivo">
+            <h2>Objetivo</h2>
+            <p>Atualmente estou estudando programação e desenvolvendo projetos para aplicar o que aprendo. Meu objetivo é me tornar uma desenvolvedora full-stack.</p>
+            <p>Mas busco uma oportunidade de estágio na área de programação, onde possa aplicar meus conhecimentos e aprender mais sobre desenvolvimento de software.</p>
+            <p>Estou disposta a aprender e contribuir para projetos inovadores.</p>
+        </section>
+
+        <section class="formação escolar">
+            <h2>Formação Escolar</h2>
+            <p>Ensino Médio Completo (E.E.Dr. João Pedro Cardoso)</p>
+        </section>
+
+        <section class="cursos complementares">
+            <h2>Cursos Complementares</h2>
+            <div style="display: flex; justify-content: center; align-items: center; heigth: 100vh:">
+            <ul>
+            <li>Informática Básica  Microsoft Excel Básico (SENAI PINDA-20 horas)</li>
+            <li>Power BI (SENAI PINDA- 20 horas)</li>
+            <li>Cursando T.I (SENAC PINDA- carga horaria: 8hrs-12hrs)</li>
+            <li>Cursando Inglês (KNN Idiomas PINDA-Carga horaria: 19hrs-21hrs)</li>
+            <li>Como falar em público (SENAC PINDA - 16hrs)</li>
+            <li>Semi Finalista do evento empreenda SENAC 2024</li>
+            </ul>
+        </div>
+        </section>
+
+        <section class="Interesses">
+            <h2>Interesses</h2>
+            <div style="display: flex; justify-content: center; align-items: center; heigth: 100vh:">
+            <ul>
+                <li>Programação;</li>
+                <li>Desenvolvimento Web;</li>
+                <li>Aprendizado Contínuo;</li>
+                <li>Trabalho em Equipe;</li>
+                <li>Inovação Tecnológica;</li>
+                <li>Desenvolver meus conhecimentos;</li>
+                <li>Adquirir novas experiências; </li>
+                <li>Cumprir minhas tarefas com responsabilidade e determinação;</li>
+                <li>Suprir todas as necessidades do trabalho em equipe.</li>
+            </ul>
+            </div>
+            </section>
+
+        <section class="experiência">
+            <h2>Experiência</h2>
+            <p>Euroquadros Indústria Importação e Exportação; Cargo: Aprendiz de Adm de Manutenção (9 de Dez - Atuando)</p>
+            <p>Atividades: Auxiliar na baixa de relatóros, organização de almoxerifado, auxiliar na baixa de entrada e saída de estoque.</p>
+        </section>
+        </main>
+
+       <footer>
+        <div class="Informações para contato">
+            <h2>Informações para Contato</h2>
+            <ul>
+                <li><a href="https://github.com/Kauane1706" target="_blank">GitHub</a></li>
+                <li><a href="https://www.instagram.com/_kahsants?hl=pt-br" target="_blank">Instagram</a></li>
+                <a href="mailto:kauanekakadossantos854@gmail.com">Me envie um e-mail</a>
+                <a href="https://w.app/kasantos" target="_blank">Tire dúvidas ou faça seu orçamento</a>
+
+            </ul>
+            @Kauane Santos - 2025-Todos os direitos reservados.
+        </div>
+    </footer>
+    <script>
+        const toggleButton = document.getElementById('toggle-dark-mode');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('light-mode');
+            if (document.body.classList.contains('light-mode')) {
+                toggleButton.textContent = '🌑 Alternar Tema';
+            } else {
+                toggleButton.textContent = '🌙 Alternar Tema';
+            }
+        });
+    </script>
+    <button id="toggle-dark-mode" class="toggle-button">🌙 Alternar Tema</button>    
+</body>
+</html>
